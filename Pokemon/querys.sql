@@ -1,0 +1,3 @@
+CREATE TABLE `pokedex`.`pokemon` ( `id` INT NOT NULL AUTO_INCREMENT , `numero_id` INT(199) NOT NULL , `nombre` VARCHAR(20) NOT NULL , `tipo` VARCHAR(20) NOT NULL , `descripcion` VARCHAR(200) NOT NULL , `imagen` VARCHAR(20) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+INSERT INTO `pokemon`(`numero_id`, `nombre`, `tipo`, `descripcion`, `imagen`) VALUES ('1','squirtle','imgPoke/agua.png','Squirtle es un pokemon de tipo agua','imgPoke/squirtle.png')
